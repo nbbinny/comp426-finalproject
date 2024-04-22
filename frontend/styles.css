@@ -1,10 +1,10 @@
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Global Styles */
 * {
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Form Styles */
@@ -39,7 +39,6 @@ textarea {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
   caret-color: purple;
-  caret-size: 5px;
   transition: all 350ms;
 }
 
@@ -80,6 +79,23 @@ button:hover,
 button:focus {
   background-color: olivedrab;
   color: white;
+}
+
+.toggle-div {
+  display: flex;
+  justify-content: center;
+}
+
+#toggle {
+  background-color: transparent;
+  padding: 0px;
+  color: black;
+  width: auto;
+}
+
+#toggle:hover,
+#toggle:focus {
+  text-decoration: underline;
 }
 
 /* Fieldset and Legend Styles */
